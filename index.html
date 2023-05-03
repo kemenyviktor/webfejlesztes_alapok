@@ -13,6 +13,7 @@
         <!--Valahogy olvashatóbbá kellene tenni, használj több entert-->
         <!--A Youtube-os linkeket beszúrni ha már megtanultam-->
         
+        <header>
         <h1>Ez az első weboldal amit készítek</h1>
 
         <ul>
@@ -21,27 +22,41 @@
             <li><a href="#lista3">harmadik lista</a></li>
         </ul>
 
+        </header>
+
+        <main>
+
+        <article id="badarsag">   
         <p>Ide írok valamit mert nem akarom a loremet használni</p>
         
         <p>Na jó használjuk mégis...</p>
 
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem voluptatum esse error mollitia beatae est aspernatur officiis modi cumque quidem maxime consequuntur incidunt nobis tempore nisi nulla placeat, hic quae?</p>
         
-        <hr>
-        
+        </article>
+
+        <article id="bemutato">
         <h2>Bemutatás</h2>
         
         <p>Ez egy gyakorló weboldal semmi értelmes nincs rajta</p>
         
         <p>De használni kell a tageket a gyakorlás érdekében</p>
         
-        <hr>
-        
+        </article>
+
+        <article id="magyarazat">
         <h2>Némi magyarázat</h2>
         
         <p>Ezt a weboldalt tanulási céllal készítettem</p>
-        
+        </article>
+
+        <article id="Tananyag">
         <h3>Tananyag</h3>
+        
+        <figure>
+            <img src="képek/YouTube-Logo.png" alt="Youtube" title="A tanagynag forrása" height="500" loading="eager">
+            <figcaption>Néha a Youtube jobb mint egy-két tanár</figcaption>
+        </figure>
         
         Mindjárt adok egy kis magyarázatot: <br>
         
@@ -52,7 +67,11 @@
             <li>Ez egy 2022-es videó úgyhogy az információk elavultá válhatnak</li>
             <li>Amint megtanulom a linkelést beteszem ide a videók linkjét <a href="https://www.youtube.com/watch?v=kUMe1FH4CHE&t=2332s">megtanultam</a></li>
         </ol>
-        
+        </article>
+
+        <article id="figyelmeztetes">
+        <img src="képek/Bang.svg.png" alt="NE!!" height="100" loading="lazy">
+
         <h3>A tartalmat ne vedd komolyan</h3>
         
         <ul id="lista2">
@@ -60,9 +79,13 @@
             <li>Ha maga a code érdekel azt később elérhetővé teszem Github-on</li>
             <li> <a href="https://github.com/kemenyviktor/webfejlesztes_alapok" target="_blank">Github link a kódhoz</a></li>
         </ul>
+        </article>
         
+        <article id="ismetles">
+        <img src="képek/HTML5_logo.png" alt="html" width="100" height="100" loading="lazy">
+
         <h3>Akkor mire is van ez?</h3>
-        
+
         <dl id="lista3">
             <dt>Tanulás</dt>
             <dd>Hogy a videóból tanultak át tudjam ültetni a gyakorlatba</dd>
@@ -71,9 +94,22 @@
             <dt>Élvezet</dt>
             <dd>Habár semmi komoly nincs még itt, élvezheted hogy már némi fejlesztést készítettél</dd>
         </dl>
-        
+        </article>
+        </main> 
+        <aside>
+            <details>
+                <summary>Mennyi a tanulási idő?</summary>
+                <p><mark> Ez sok mindentől függ</mark></p>
+                <ul>
+                    <li>Te mennyi időt tudsz a tanulásra szánni</li>
+                    <li>Mennyire köt le a téma</li>
+                    <li>Milyen körülmények között tanulsz</li>
+                </ul>
+            </details>
+        </aside>
+        <footer>
         <p> <a href="#">Vissza az oldal tetejére</a></p>
-
         &lt; &copy;<a href="about.html">Kemény Viktor</a> &gt;
+        </footer>
     </body>
 </html>
