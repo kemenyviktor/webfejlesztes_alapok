@@ -27,7 +27,28 @@
         <video controls loop>
             <source src="videó/First Penta.mp4" type="video/mp4">
         </video>
-        <h2>Alapvető konténer a div</h2>
-        <code>&lt;div&gt;</code>
+        <h2>Alapvető konténerek a div és a span</h2>
+        <p>A div és span is olyan tag ami nem látható, pusztán a CSS használatakor van értelmük</p>
+        <p>A HTML5 előtt nem léteztek meta tagek, ezért korábban ezeket használták, ezeket még most is lehet használni és nincs velük semmi baj</p>
+        <p>A két tag között az a különbség hogy mikor érdemes használni őket</p>
+        <code>&lt;div&gt;</code><p>A div tag block szintű, vagyis ami a div tag közé kerül, azt a tartalmat teljesen külön választja</p>
+        <code>&lt;span&gt;</code><p>A span tag inline szintű, vagyis ami a span tag közé kerül, az a tartalom nem választódik külön a többi résztől</p>
+        <p>Tehát a span taget szöveg formázásra érdemes használni, míg a div taget inkább a tartalom rendezésére(pl.: a képeket egymás mellé helyezni)</p>
+        <p>Most egy kicsit csalok és rakok némi CSS-t a kódba, hogy be tudjam mutatni a különbséget</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="background-color: yellow;">Rem, eveniet quibusdam. Optio magni repellendus laborum quibusdam molestias</span> earum incidunt, ratione neque et repudiandae. Id delectus, dolorem tempore nulla ex molestias?
+        <br>
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: green;">Eius unde, consectetur optio cum aspernatur neque,</div> asperiores a sit id iusto quia magnam et? Voluptatem delectus laborum exercitationem reiciendis quas magnam.
+        <br>
+        <br>
+        <p>A felső soron lett a span tag használva, az alsó soron pedig a div tag.</p>
+        <hr>
+        <h2>iframe tag</h2>
+        <p>Ezen az oldalon az utolsó fontosabb tag</p>
+        <p>Ennek a segítségével lehet beágyazni különféle dolgokat a saját weboldalunkba (youtube videó, reklám, másik weboldal)</p>
+        <p>Mivel ez a technika használható hackeléshez, ezért bizonyos oldalak (pl.: a google) nem támogatják.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aRGdDy18qfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <hr>
+        <iframe width="800" src="https://www.bing.com">
     </body>
 </html>
